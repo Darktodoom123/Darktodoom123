@@ -4,7 +4,7 @@
   <img src="https://raw.githubusercontent.com/Darktodoom123/Darktodoom123/main/github_profile_banner.png" alt="Aristaeus | IT Student & Learning Developer Banner" width="100%">
 </p>
 
-I am an **IT Student majoring in Information Systems (IS)** and a **learning Full-Stack Developer**. I love leveraging **AI-assisted workflows** and exploring new developer tools, frameworks, and methodologies to build clean, performant, and reliable applications.
+I am an **IT Student majoring in Information Security (IS)** and a **learning Full-Stack Developer**. I love leveraging **AI-assisted workflows** and exploring new developer tools, frameworks, and methodologies to build clean, performant, and reliable applications.
 
 ---
 
@@ -74,6 +74,6 @@ I am an **IT Student majoring in Information Systems (IS)** and a **learning Ful
 ### 📨 Connect With Me
 
 * 🐱 **GitHub**: [Darktodoom123](https://github.com/Darktodoom123)
-* ✉️ **Email**: `aristaeus@example.com`
+* ✉️ **Email**: `christopher.atinado@gmail.com`
 
 *“Keep pushing commits, keep solving systems.”*
