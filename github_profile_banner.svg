@@ -1,4 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="100%" height="100%">
+  <title>Aristaeus Developer Banner</title>
+  <desc>A cosmic dark purple background with pulsing stars and the Cancer constellation</desc>
+
   <defs>
     <!-- Glow and Blur Filters -->
     <filter id="nebula-blur" x="-20%" y="-20%" width="140%" height="140%">
@@ -29,11 +32,6 @@
       to { opacity: 1; transform: translateY(0); }
     }
 
-    @keyframes nebulaDrift {
-      0%, 100% { transform: translate(0, 0) scale(1); }
-      50% { transform: translate(15px, -10px) scale(1.05); }
-    }
-
     /* Animation Classes */
     .star {
       fill: #e0def4;
@@ -62,11 +60,6 @@
     .line-3 { animation-delay: 1.2s; }
     .line-4 { animation-delay: 1.6s; }
 
-    .nebula {
-      transform-origin: center;
-      animation: nebulaDrift 15s infinite ease-in-out;
-    }
-
     .animate-text {
       opacity: 0;
       animation: contentFadeIn 1.2s forwards cubic-bezier(0.16, 1, 0.3, 1);
@@ -74,7 +67,7 @@
     .text-title { 
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       font-weight: 800; 
-      font-size: 36px; 
+      font-size: 38px; 
       fill: oklch(98% 0.01 270);
       animation-delay: 0.2s;
     }
@@ -85,21 +78,23 @@
       fill: oklch(80% 0.14 195);
       animation-delay: 0.5s;
     }
-    .text-badge { 
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      font-weight: 600; 
-      font-size: 10px; 
-      fill: oklch(74% 0.16 325);
-      letter-spacing: 0.08em;
-      animation-delay: 0.8s;
+
+    /* Accessibility: Respect Reduced Motion Preferences */
+    @media (prefers-reduced-motion: reduce) {
+      .star, .star-bright, .const-line, .animate-text {
+        animation: none !important;
+        opacity: 1 !important;
+        stroke-dashoffset: 0 !important;
+        transform: none !important;
+      }
     }
   </style>
 
   <!-- Background Space Canvas -->
   <rect width="100%" height="100%" fill="oklch(14% 0.04 275)" />
 
-  <!-- Glowing Nebulae -->
-  <g class="nebula" opacity="0.3">
+  <!-- Static Glowing Nebulae (Optimized: Animation removed to prevent repaint thrashing) -->
+  <g opacity="0.25">
     <circle cx="620" cy="110" r="110" fill="oklch(62% 0.18 295)" filter="url(#nebula-blur)" />
     <circle cx="150" cy="180" r="80" fill="oklch(80% 0.14 195)" filter="url(#nebula-blur)" />
     <circle cx="400" cy="30" r="90" fill="oklch(74% 0.16 325)" filter="url(#nebula-blur)" />
@@ -117,14 +112,12 @@
     <circle cx="710" cy="160" r="1" class="star star-2" />
   </g>
 
-  <!-- Typographic Copy Block -->
-  <g transform="translate(60, 65)">
-    <!-- Eyebrow Badge -->
-    <text class="animate-text text-badge" y="0">Information Security Major</text>
+  <!-- Typographic Copy Block (Shifted upward to compensate for removed eyebrow badge) -->
+  <g transform="translate(60, 85)">
     <!-- Main Display Heading -->
-    <text class="animate-text text-title" y="38">ARISTAEUS</text>
+    <text class="animate-text text-title" y="0">ARISTAEUS</text>
     <!-- Subtitle -->
-    <text class="animate-text text-subtitle" y="70">Learning Full-Stack Developer &amp; AI Explorer</text>
+    <text class="animate-text text-subtitle" y="32">Learning Full-Stack Developer &amp; AI Explorer</text>
   </g>
 
   <!-- Cancer Constellation Graphics (Right-aligned, x=580 to x=680) -->
