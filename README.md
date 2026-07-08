@@ -1,10 +1,10 @@
 # Hi there, I'm Aristaeus (Darktodoom123) 👋
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Darktodoom123/Darktodoom123/main/github_profile_banner.png" alt="Aristaeus | Full-Stack Developer Banner" width="100%">
+  <img src="https://raw.githubusercontent.com/Darktodoom123/Darktodoom123/main/github_profile_banner.png" alt="Aristaeus | IT Student & Learning Developer Banner" width="100%">
 </p>
 
-I am a dedicated **Full-Stack Software Developer** specializing in building clean, performant, and reliable web applications. My core expertise lies in crafting robust backend architectures with **PHP, Laravel, and Livewire**, as well as engaging, interactive frontends with **React and modern JavaScript**.
+I am an **IT Student majoring in Information Systems (IS)** and a **learning Full-Stack Developer**. I love leveraging **AI-assisted workflows** and exploring new developer tools, frameworks, and methodologies to build clean, performant, and reliable applications.
 
 ---
 
@@ -34,6 +34,14 @@ I am a dedicated **Full-Stack Software Developer** specializing in building clea
   </a>
 </p>
 
+#### 🤖 AI & Development Tools I Explore
+<p align="left">
+  <img src="https://img.shields.io/badge/ChatGPT-74AA9C?style=for-the-badge&logo=openai&logoColor=white" alt="ChatGPT" />
+  <img src="https://img.shields.io/badge/Google%20Gemini-8E75C8?style=for-the-badge&logo=google-gemini&logoColor=white" alt="Gemini" />
+  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+</p>
+
 ---
 
 ### 🏥 Featured Projects
@@ -50,7 +58,7 @@ I am a dedicated **Full-Stack Software Developer** specializing in building clea
 * **HR Talent Acquisition**: A modern recruitment staging pipeline that streamlines interviewer scoring, candidate progression, and automatic notifications.
 
 #### 📂 [Darktodoom123/ctms-dev-sandbox](https://github.com/Darktodoom123/ctms-dev-sandbox)
-* **CTMS Developer Sandbox**: A sandbox playground environment for testing Clinical Trial Management System components and dynamic dashboard features.
+* **CTMS Developer Sandbox**: A sandbox playground environment for testing Crane and Trucking Management System.
 
 ---
 
