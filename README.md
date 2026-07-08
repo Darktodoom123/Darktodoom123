@@ -12,34 +12,34 @@ I am an **IT Student majoring in Information Security (IS)** and a **learning Fu
 
 <p align="left">
   <a href="https://laravel.com" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel" />
+    <img src="https://img.shields.io/badge/Laravel-%23191724?style=for-the-badge&logo=laravel&logoColor=%23c4a7e7&labelColor=%23191724" alt="Laravel" />
   </a>
   <a href="https://www.php.net" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/PHP-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+    <img src="https://img.shields.io/badge/PHP-%23191724?style=for-the-badge&logo=php&logoColor=%23c4a7e7&labelColor=%23191724" alt="PHP" />
   </a>
   <a href="https://livewire.laravel.com" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Livewire-%234e56a6.svg?style=for-the-badge&logo=livewire&logoColor=white" alt="Livewire" />
+    <img src="https://img.shields.io/badge/Livewire-%23191724?style=for-the-badge&logo=livewire&logoColor=%23c4a7e7&labelColor=%23191724" alt="Livewire" />
   </a>
   <a href="https://react.dev" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" />
+    <img src="https://img.shields.io/badge/React-%23191724?style=for-the-badge&logo=react&logoColor=%23c4a7e7&labelColor=%23191724" alt="React" />
   </a>
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" />
+    <img src="https://img.shields.io/badge/JavaScript-%23191724?style=for-the-badge&logo=javascript&logoColor=%23c4a7e7&labelColor=%23191724" alt="JavaScript" />
   </a>
   <a href="https://www.mysql.com" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/MySQL-%2300758F.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+    <img src="https://img.shields.io/badge/MySQL-%23191724?style=for-the-badge&logo=mysql&logoColor=%23c4a7e7&labelColor=%23191724" alt="MySQL" />
   </a>
   <a href="https://tailwindcss.com" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Tailwind_CSS-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS-%23191724?style=for-the-badge&logo=tailwind-css&logoColor=%23c4a7e7&labelColor=%23191724" alt="Tailwind CSS" />
   </a>
 </p>
 
 #### 🤖 AI & Development Tools I Explore
 <p align="left">
-  <img src="https://img.shields.io/badge/ChatGPT-74AA9C?style=for-the-badge&logo=openai&logoColor=white" alt="ChatGPT" />
-  <img src="https://img.shields.io/badge/Google%20Gemini-8E75C8?style=for-the-badge&logo=google-gemini&logoColor=white" alt="Gemini" />
-  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/ChatGPT-%23191724?style=for-the-badge&logo=openai&logoColor=%239ccfd8&labelColor=%23191724" alt="ChatGPT" />
+  <img src="https://img.shields.io/badge/Google_Gemini-%23191724?style=for-the-badge&logo=google-gemini&logoColor=%239ccfd8&labelColor=%23191724" alt="Gemini" />
+  <img src="https://img.shields.io/badge/Git-%23191724?style=for-the-badge&logo=git&logoColor=%239ccfd8&labelColor=%23191724" alt="Git" />
+  <img src="https://img.shields.io/badge/Docker-%23191724?style=for-the-badge&logo=docker&logoColor=%239ccfd8&labelColor=%23191724" alt="Docker" />
 </p>
 
 ---
