@@ -1,7 +1,7 @@
 # Hi there, I'm Aristaeus (Darktodoom123) 👋
 
 <p align="center">
-  <img src="github_profile_banner.png" alt="Aristaeus | Full-Stack Developer Banner" width="100%">
+  <img src="https://raw.githubusercontent.com/Darktodoom123/Darktodoom123/main/github_profile_banner.png" alt="Aristaeus | Full-Stack Developer Banner" width="100%">
 </p>
 
 I am a dedicated **Full-Stack Software Developer** specializing in building clean, performant, and reliable web applications. My core expertise lies in crafting robust backend architectures with **PHP, Laravel, and Livewire**, as well as engaging, interactive frontends with **React and modern JavaScript**.
