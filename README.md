@@ -66,7 +66,7 @@ I am an **IT Student majoring in Information Security (IS)** and a **learning Fu
 
 <p align="center">
   <img src="stats/github-stats.svg" alt="Aristaeus GitHub Stats" height="150" />
-  <img src="stats/github-top-langs.svg" alt="Top Languages" height="150" />
+  <img src="stats/github-top-languages.svg" alt="Top Languages" height="150" />
 </p>
 
 ---
