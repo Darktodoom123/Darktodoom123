@@ -30,15 +30,6 @@ jobs:
             mv temp-stats.svg stats/github-stats.svg
             echo "Stats card successfully updated."
           fi
-          
-          # Fetch Languages Card
-          curl -s "https://github-readme-stats-eight-theta.vercel.app/api/top-langs?username=Darktodoom123&layout=compact&title_color=c4a7e7&icon_color=9ccfd8&text_color=e0def4&bg_color=191724&hide_border=true" -o temp-langs.svg
-          if grep -q "Something went wrong" temp-langs.svg || grep -q "rate limit" temp-langs.svg; then
-            echo "Top Languages card is currently rate-limited. Skipping update to preserve existing cache."
-          else
-            mv temp-langs.svg stats/github-top-langs.svg
-            echo "Top Languages card successfully updated."
-          fi
 
       - name: Commit and Push changes
         run: |
