@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="100%" height="100%">
   <title>Aristaeus Developer Banner</title>
-  <desc>A cosmic dark purple background with pulsing stars and the Cancer constellation</desc>
+  <desc>Aristaeus — Learning Full-Stack Developer and AI Explorer. A cosmic dark-indigo banner featuring the Cancer constellation with twinkling stars and soft nebula gradients.</desc>
 
   <defs>
     <!-- Highly Diffused Nebula Blur Filter -->
@@ -37,7 +37,8 @@
 
     /* Animation and Styling Classes */
     .star {
-      fill: #e0def4;
+      fill: #e1e3f2;
+      fill: oklch(92% 0.02 280);
       animation: starTwinkle 6s infinite ease-in-out;
     }
     .delay-1 { animation-delay: 1.5s; }
@@ -52,6 +53,7 @@
     }
 
     .const-line {
+      stroke: rgba(200, 205, 219, 0.22);
       stroke: oklch(85% 0.02 270 / 0.22);
       stroke-width: 1.2;
       stroke-linecap: round;
@@ -72,6 +74,7 @@
       font-family: 'Outfit', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       font-weight: 800; 
       font-size: 38px; 
+      fill: #f5f8ff;
       fill: oklch(98% 0.01 270);
       letter-spacing: -0.02em;
       animation-delay: 0.2s;
@@ -80,6 +83,7 @@
       font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       font-weight: 500; 
       font-size: 15px; 
+      fill: #00d8d9;
       fill: oklch(80% 0.14 195);
       letter-spacing: -0.01em;
       animation-delay: 0.5s;
@@ -99,12 +103,16 @@
   ]]></style>
 
   <!-- Background Space Canvas -->
+  <rect width="100%" height="100%" fill="#050719" />
   <rect width="100%" height="100%" fill="oklch(14% 0.04 275)" />
 
   <!-- Static Glowing Nebulae (Highly diffused for a premium, non-neon look) -->
   <g opacity="0.18">
+    <circle cx="620" cy="110" r="120" fill="#9069e5" filter="url(#nebula-blur)" />
     <circle cx="620" cy="110" r="120" fill="oklch(62% 0.18 295)" filter="url(#nebula-blur)" />
+    <circle cx="150" cy="180" r="90" fill="#00d8d9" filter="url(#nebula-blur)" />
     <circle cx="150" cy="180" r="90" fill="oklch(80% 0.14 195)" filter="url(#nebula-blur)" />
+    <circle cx="400" cy="30" r="100" fill="#dc84e1" filter="url(#nebula-blur)" />
     <circle cx="400" cy="30" r="100" fill="oklch(74% 0.16 325)" filter="url(#nebula-blur)" />
   </g>
 
@@ -139,33 +147,33 @@
     <!-- Constellation Stars (Concentric Glow Layers) -->
     <!-- Alpha (Top) -->
     <g>
-      <circle cx="560" cy="50" r="14" fill="oklch(80% 0.14 195)" class="const-glow-outer delay-1" />
-      <circle cx="560" cy="50" r="7" fill="oklch(80% 0.14 195)" class="const-glow-inner delay-1" />
-      <circle cx="560" cy="50" r="2.5" fill="oklch(98% 0.01 270)" />
+      <circle cx="560" cy="50" r="14" fill="#00d8d9" class="const-glow-outer delay-1" />
+      <circle cx="560" cy="50" r="7" fill="#00d8d9" class="const-glow-inner delay-1" />
+      <circle cx="560" cy="50" r="2.5" fill="#f5f8ff" />
     </g>
     <!-- Beta (Junction) -->
     <g>
-      <circle cx="530" cy="105" r="10" fill="oklch(80% 0.14 195)" class="const-glow-outer delay-2" />
-      <circle cx="530" cy="105" r="5" fill="oklch(80% 0.14 195)" class="const-glow-inner delay-2" />
-      <circle cx="530" cy="105" r="2.0" fill="oklch(98% 0.01 270)" />
+      <circle cx="530" cy="105" r="10" fill="#00d8d9" class="const-glow-outer delay-2" />
+      <circle cx="530" cy="105" r="5" fill="#00d8d9" class="const-glow-inner delay-2" />
+      <circle cx="530" cy="105" r="2.0" fill="#f5f8ff" />
     </g>
     <!-- Gamma (Core - Brightest) -->
     <g>
-      <circle cx="500" cy="160" r="16" fill="oklch(80% 0.14 195)" class="const-glow-outer" />
-      <circle cx="500" cy="160" r="8" fill="oklch(80% 0.14 195)" class="const-glow-inner" />
-      <circle cx="500" cy="160" r="3.0" fill="oklch(98% 0.01 270)" />
+      <circle cx="500" cy="160" r="16" fill="#00d8d9" class="const-glow-outer" />
+      <circle cx="500" cy="160" r="8" fill="#00d8d9" class="const-glow-inner" />
+      <circle cx="500" cy="160" r="3.0" fill="#f5f8ff" />
     </g>
     <!-- Delta (Tail) -->
     <g>
-      <circle cx="450" cy="200" r="12" fill="oklch(80% 0.14 195)" class="const-glow-outer delay-3" />
-      <circle cx="450" cy="200" r="6" fill="oklch(80% 0.14 195)" class="const-glow-inner delay-3" />
-      <circle cx="450" cy="200" r="2.2" fill="oklch(98% 0.01 270)" />
+      <circle cx="450" cy="200" r="12" fill="#00d8d9" class="const-glow-outer delay-3" />
+      <circle cx="450" cy="200" r="6" fill="#00d8d9" class="const-glow-inner delay-3" />
+      <circle cx="450" cy="200" r="2.2" fill="#f5f8ff" />
     </g>
     <!-- Iota (Bottom Branch) -->
     <g>
-      <circle cx="610" cy="185" r="10" fill="oklch(80% 0.14 195)" class="const-glow-outer delay-1" />
-      <circle cx="610" cy="185" r="5" fill="oklch(80% 0.14 195)" class="const-glow-inner delay-1" />
-      <circle cx="610" cy="185" r="2.0" fill="oklch(98% 0.01 270)" />
+      <circle cx="610" cy="185" r="10" fill="#00d8d9" class="const-glow-outer delay-1" />
+      <circle cx="610" cy="185" r="5" fill="#00d8d9" class="const-glow-inner delay-1" />
+      <circle cx="610" cy="185" r="2.0" fill="#f5f8ff" />
     </g>
   </g>
 </svg>
