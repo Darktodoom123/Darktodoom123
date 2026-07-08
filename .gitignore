@@ -5,4 +5,5 @@ node_modules/
 dist/
 vendor/
 .agents/
-
+DESIGN.md
+PRODUCT.md
