@@ -105,7 +105,7 @@
     <circle cx="400" cy="30" r="90" fill="oklch(74% 0.16 325)" filter="url(#nebula-blur)" />
   </g>
 
-  <!-- Star Field (Static & Pulsing Background Stars) -->
+  <!-- Star Field (Static and Pulsing Background Stars) -->
   <g opacity="0.6">
     <circle cx="80" cy="40" r="1" class="star star-1 delay-1" />
     <circle cx="280" cy="70" r="1.5" class="star star-2 delay-2" />
@@ -124,7 +124,7 @@
     <!-- Main Display Heading -->
     <text class="animate-text text-title" y="38">ARISTAEUS</text>
     <!-- Subtitle -->
-    <text class="animate-text text-subtitle" y="70">Learning Full-Stack Developer & AI Explorer</text>
+    <text class="animate-text text-subtitle" y="70">Learning Full-Stack Developer &amp; AI Explorer</text>
   </g>
 
   <!-- Cancer Constellation Graphics (Right-aligned, x=580 to x=680) -->
