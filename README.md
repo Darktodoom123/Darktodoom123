@@ -65,8 +65,8 @@ I am an **IT Student majoring in Information Security (IS)** and a **learning Fu
 ### 📊 GitHub Pulse & Stats
 
 <p align="center">
-  <img src="https://github-readme-stats-anuraghazra.vercel.app/api?username=Darktodoom123&show_icons=true&title_color=c4a7e7&icon_color=9ccfd8&text_color=e0def4&bg_color=191724&hide_border=true&count_private=true" alt="Aristaeus GitHub Stats" height="150" />
-  <img src="https://github-readme-stats-anuraghazra.vercel.app/api/top-langs?username=Darktodoom123&layout=compact&title_color=c4a7e7&icon_color=9ccfd8&text_color=e0def4&bg_color=191724&hide_border=true" alt="Top Languages" height="150" />
+  <img src="stats/github-stats.svg" alt="Aristaeus GitHub Stats" height="150" />
+  <img src="stats/github-top-langs.svg" alt="Top Languages" height="150" />
 </p>
 
 ---
