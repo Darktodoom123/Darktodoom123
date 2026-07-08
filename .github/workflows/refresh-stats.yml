@@ -4,9 +4,6 @@ on:
   schedule:
     - cron: '0 */6 * * *' # Run every 6 hours
   workflow_dispatch: # Allow manual trigger
-  push:
-    branches:
-      - main
 
 permissions:
   contents: write
@@ -16,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Download Stats SVGs with Error Check
         run: |
@@ -37,4 +34,5 @@ jobs:
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add stats/github-stats.svg
           git diff-index --quiet HEAD || git commit -m "chore: refresh github profile stats cards"
+          git pull --rebase origin main
           git push
