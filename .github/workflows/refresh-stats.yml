@@ -28,11 +28,20 @@ jobs:
             echo "Stats card successfully updated."
           fi
 
+          # Fetch Languages Card
+          curl -s "https://github-readme-stats-eight-theta.vercel.app/api/top-langs?username=Darktodoom123&layout=compact&title_color=c4a7e7&icon_color=9ccfd8&text_color=e0def4&bg_color=191724&hide_border=true" -o temp-langs.svg
+          if grep -q "Something went wrong" temp-langs.svg || grep -q "rate limit" temp-langs.svg; then
+            echo "Top Languages card is currently rate-limited. Skipping update to preserve existing cache."
+          else
+            mv temp-langs.svg stats/profile-top-languages.svg
+            echo "Top Languages card successfully updated."
+          fi
+
       - name: Commit and Push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add stats/profile-stats.svg
+          git add stats/profile-stats.svg stats/profile-top-languages.svg
           git diff-index --quiet HEAD || git commit -m "chore: refresh github profile stats cards"
           git pull --rebase origin main
           git push
