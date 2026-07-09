@@ -24,7 +24,7 @@ jobs:
           if grep -q "Something went wrong" temp-stats.svg || grep -q "rate limit" temp-stats.svg; then
             echo "Stats card is currently rate-limited. Skipping update to preserve existing cache."
           else
-            mv temp-stats.svg stats/github-stats.svg
+            mv temp-stats.svg stats/profile-stats.svg
             echo "Stats card successfully updated."
           fi
 
@@ -32,7 +32,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add stats/github-stats.svg
+          git add stats/profile-stats.svg
           git diff-index --quiet HEAD || git commit -m "chore: refresh github profile stats cards"
           git pull --rebase origin main
           git push
