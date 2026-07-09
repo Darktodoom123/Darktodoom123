@@ -1,7 +1,7 @@
 # Hi there, I'm Aristaeus (Darktodoom123) 👋
 
 <p align="center">
-  <img src="https://github.com/Darktodoom123/Darktodoom123/raw/main/profile-banner.svg" alt="Aristaeus | IT Student & Learning Developer Banner" width="75%">
+  <img src="https://cdn.jsdelivr.net/gh/Darktodoom123/Darktodoom123@main/profile-banner.svg" alt="Aristaeus | IT Student & Learning Developer Banner" width="75%">
 </p>
 
 I am an **IT Student majoring in Information Security (IS)** and a **learning Full-Stack Developer**. I love leveraging **AI-assisted workflows** and exploring new developer tools, frameworks, and methodologies to build clean, performant, and reliable applications.
@@ -65,8 +65,8 @@ I am an **IT Student majoring in Information Security (IS)** and a **learning Fu
 ### 📊 GitHub Pulse & Stats
 
 <p align="center">
-  <img src="https://github.com/Darktodoom123/Darktodoom123/raw/main/stats/profile-stats.svg" alt="Aristaeus GitHub Stats" height="150" />
-  <img src="https://github.com/Darktodoom123/Darktodoom123/raw/main/stats/profile-top-languages.svg" alt="Top Languages" height="150" />
+  <img src="https://cdn.jsdelivr.net/gh/Darktodoom123/Darktodoom123@main/stats/profile-stats.svg" alt="Aristaeus GitHub Stats" height="150" />
+  <img src="https://cdn.jsdelivr.net/gh/Darktodoom123/Darktodoom123@main/stats/profile-top-languages.svg" alt="Top Languages" height="150" />
 </p>
 
 ---
