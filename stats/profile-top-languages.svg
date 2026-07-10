@@ -1,69 +1,84 @@
+<svg width="495" height="195" viewBox="0 0 495 195" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .header {
+      font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+      fill: #c4a7e7;
+      animation: fadeInAnimation 0.8s ease-in-out forwards;
+    }
+    .lang-name {
+      font: 600 13px 'Segoe UI', Ubuntu, Sans-Serif;
+      fill: #e0def4;
+    }
+    .lang-percent {
+      font: 400 13px 'Segoe UI', Ubuntu, Sans-Serif;
+      fill: #9ccfd8;
+    }
+    .stagger {
+      opacity: 0;
+      animation: fadeInAnimation 0.5s ease-in-out forwards;
+    }
+    @keyframes fadeInAnimation {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
 
-      <svg
-        width="350"
-        height="90"
-        viewBox="0 0 350 90"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <style>
-          .header {
-            font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #c4a7e7;
-            animation: fadeInAnimation 0.8s ease-in-out forwards;
-          }
-          
-    .lang-name { font: 400 11px 'Inter', Ubuntu, Sans-Serif; fill: #e0def4 }
-  
+  <rect
+    x="0.5"
+    y="0.5"
+    rx="4.5"
+    height="99%"
+    stroke="#E4E2E2"
+    width="494"
+    fill="#191724"
+    stroke-opacity="0"
+  />
 
-          
-        </style>
+  <g transform="translate(25, 35)">
+    <text x="0" y="0" class="header">Most Used Languages</text>
+  </g>
 
-        undefined
+  <!-- Progress Bar representing tech stack allocation -->
+  <g transform="translate(25, 55)">
+    <!-- PHP (40%) -->
+    <rect x="0" y="0" width="178" height="8" rx="4" fill="#777bb4" />
+    <!-- JavaScript (25%) -->
+    <rect x="178" y="0" width="111" height="8" fill="#f1e05a" />
+    <!-- Livewire/Blade (15%) -->
+    <rect x="289" y="0" width="67" height="8" fill="#4e56a6" />
+    <!-- SQL (12%) -->
+    <rect x="356" y="0" width="53" height="8" fill="#e38c00" />
+    <!-- React/HTML (8%) -->
+    <rect x="409" y="0" width="36" height="8" rx="4" fill="#61dafb" />
+    
+    <!-- Mask overlapping rects for correct rounded outer corners -->
+    <rect x="3" y="0" width="439" height="8" fill="none" />
+  </g>
 
-        <rect
-          data-testid="card-bg"
-          x="0.5"
-          y="0.5"
-          rx="4.5"
-          height="99%"
-          stroke="#E4E2E2"
-          width="349"
-          fill="#191724"
-          stroke-opacity="0"
-        />
-
-        
-      <g
-        data-testid="card-title"
-        transform="translate(25, 35)"
-      >
-        <g transform="translate(0, 0)">
-      <text
-        x="0"
-        y="0"
-        class="header"
-        data-testid="header"
-      >My Programming Languages</text>
+  <!-- Grid Layout of Languages -->
+  <g transform="translate(25, 85)">
+    <!-- Column 1 -->
+    <g class="stagger" style="animation-delay: 200ms" transform="translate(0, 0)">
+      <circle cx="5" cy="5" r="6" fill="#777bb4" />
+      <text x="20" y="9" class="lang-name">PHP <tspan class="lang-percent">40.0%</tspan></text>
     </g>
-      </g>
-    
+    <g class="stagger" style="animation-delay: 400ms" transform="translate(0, 30)">
+      <circle cx="5" cy="5" r="6" fill="#4e56a6" />
+      <text x="20" y="9" class="lang-name">Livewire <tspan class="lang-percent">15.0%</tspan></text>
+    </g>
+    <g class="stagger" style="animation-delay: 600ms" transform="translate(0, 60)">
+      <circle cx="5" cy="5" r="6" fill="#61dafb" />
+      <text x="20" y="9" class="lang-name">React &amp; HTML <tspan class="lang-percent">8.0%</tspan></text>
+    </g>
 
-        <g
-          data-testid="main-card-body"
-          transform="translate(0, 55)"
-        >
-          
-    <svg data-testid="lang-items" x="25">
-      
-      <mask id="rect-mask">
-        <rect x="0" y="0" width="300" height="8" fill="white" rx="5" />
-      </mask>
-      
-      
-    
-    </svg>
-  
-        </g>
-      </svg>
-    
+    <!-- Column 2 -->
+    <g class="stagger" style="animation-delay: 300ms" transform="translate(220, 0)">
+      <circle cx="5" cy="5" r="6" fill="#f1e05a" />
+      <text x="20" y="9" class="lang-name">JavaScript <tspan class="lang-percent">25.0%</tspan></text>
+    </g>
+    <g class="stagger" style="animation-delay: 500ms" transform="translate(220, 30)">
+      <circle cx="5" cy="5" r="6" fill="#e38c00" />
+      <text x="20" y="9" class="lang-name">MySQL/SQL <tspan class="lang-percent">12.0%</tspan></text>
+    </g>
+  </g>
+</svg>
